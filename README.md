@@ -1,6 +1,6 @@
+# Bank Marketing: Optimization of Telemarketing Campaigns via ML & Analytics
 <div align="center">
-<h1>Bank Marketing: Optimization of Telemarketing Campaigns via ML & Analytics</h1>
-<br/>
+  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Power Bi](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
