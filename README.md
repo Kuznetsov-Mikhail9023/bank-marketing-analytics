@@ -5,10 +5,8 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Power Bi](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-An end-to-end data analytics and data science project designed to optimize bank telemarketing campaigns, improve conversion rates, and build a robust predictive pipeline. The project encompasses database extraction via SQL, exploratory data analysis and machine learning implementation in Python, and interactive business intelligence dashboard design within Power BI.
-
 </div>
+An end-to-end data analytics and data science project designed to optimize bank telemarketing campaigns, improve conversion rates, and build a robust predictive pipeline. The project encompasses database extraction via SQL, exploratory data analysis and machine learning implementation in Python, and interactive business intelligence dashboard design within Power BI.
 
 ---
 
