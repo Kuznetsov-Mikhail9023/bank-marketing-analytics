@@ -73,6 +73,10 @@ The core data science objective focused on building a predictive pipeline to cla
 
 * **Multicollinearity Treatment**
   A correlation matrix heatmap revealed severe multicollinearity among macroeconomic metrics (e.g., `emp_var_rate`, `euribor_3m`, and `nr_employed` correlated between **0.91 and 0.97**). The features `emp_var_rate` and `nr_employed` were dropped, retaining `euribor_3m` as a reliable proxy for the financial climate.
+  
+  <p align="center">
+    <img src="images/heat_map.png" width="70%" alt="Feature Correlation Matrix">
+  </p>
 
 * **Addressing Extreme Class Imbalance**
   The target variable `y` revealed a severe **89% to 11%** skew (only ~11% conversion rate). Standard accuracy metric was rejected as useless (a dummy model would score 88.7% while delivering zero value). Optimization targeted **Recall** and **F1-Score** using a **Stratified Train/Test Split** to strictly maintain class distributions.
@@ -88,6 +92,13 @@ The core data science objective focused on building a predictive pipeline to cla
 
 * **Out-of-Fold Threshold Optimization**
   Trained an `XGBClassifier` pipeline on the native distribution to yield unskewed probability scores. Instead of relying on a default 0.5 classification cutoff, **5-fold Cross-Validation** (`cross_val_predict`) was run exclusively on the training subset to extract precise out-of-fold probabilities. By plotting the Precision-Recall curve, the **optimal F1-score threshold was calculated at 0.1393**.
+
+  * **Model Insights (Feature Importance)**
+  The trained XGBoost model identified that macroeconomic indicators—specifically the **3-month Euribor rate** (`euribor_3m`)—and previous marketing campaign success (`poutcome_success`) are the strongest predictors of customer conversion.
+  
+  <p align="center">
+    <img src="images/feature_importance.png" width="70%" alt="XGBoost Feature Importance">
+  </p>
 
 ---
 
