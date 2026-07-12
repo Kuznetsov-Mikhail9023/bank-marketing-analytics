@@ -127,3 +127,13 @@ The optimized model outputs and raw data structures were compiled into a Power B
 
 1.  **Inspect Codebases:** Review the PostgreSQL processing architecture directly inside `sql/eda_queries.sql` or evaluate the model tuning iterations inside the `notebooks/` directory.
 2.  **Run the Interactive Model:** Download the **`Bank_Marketing_Visual.pbix`** file located within the `power bi/` folder and open it locally via **Power BI Desktop** to test the interactive cross-filtering, slicers, and navigation mechanisms.
+
+---
+
+## 📝 License & Data Source
+
+This project is licensed under the **MIT License**. For more details, see the [LICENSE](LICENSE) file.  
+Data provided by the UCI Machine Learning Repository (Bank Marketing Dataset).
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
