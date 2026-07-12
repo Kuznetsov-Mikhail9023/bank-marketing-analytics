@@ -2,6 +2,11 @@
 
 An end-to-end data analytics and data science project designed to optimize bank telemarketing campaigns, improve conversion rates, and build a robust predictive pipeline. The project encompasses database extraction via SQL, exploratory data analysis and machine learning implementation in Python, and interactive business intelligence dashboard design within Power BI.
 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Power Bi](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
 ---
 
 ## 📊 Interactive Dashboard Preview
@@ -99,10 +104,10 @@ The optimized model outputs and raw data structures were compiled into a Power B
 * **Macro Economic Filtering**
   The dashboard isolates structural performance drops when the 3-month Euribor interest rate surges, directly proving that economic headwinds filter conversion metrics far heavier than individual operator behaviors.
 
-* **Measurable Business Impact**
-  
-  * *4x Operational Efficiency Multiplier:* Shifting the calling strategy classification cutoff to the cross-validated optimal threshold of `0.1393` drove final model Precision to **47%** on the unseen test set. Compared to a blind, un-targeted database обзвон (11.3% conversion context), the marketing team becomes **over 4x more efficient** per call hour.
-  * *Resource Optimization:* The operational threshold successfully captures **60% of all available conversions** while shielding sales reps from calling the massive bulk of non-responsive prospects, drastically slashing the bank's Cost Per Acquisition (CPA).
+> [!IMPORTANT]
+> ### 📈 Measurable Business Impact
+> * **4x Operational Efficiency Multiplier:** Shifting the calling strategy classification cutoff to the cross-validated optimal threshold of `0.1393` drove final model Precision to **47%** on the unseen test set. Compared to a blind, un-targeted database call strategy (11.3% conversion context), the marketing team becomes **over 4x more efficient** per call hour.
+> * **Resource Optimization:** The operational threshold successfully captures **60% of all available conversions** while shielding sales reps from calling the massive bulk of non-responsive prospects, drastically slashing the bank's Cost Per Acquisition (CPA).
 
 ---
 
