@@ -8,12 +8,12 @@ An end-to-end data analytics and data science project designed to optimize bank 
 
 ### 1. Executive Summary & Macro Trends
 <p align="center">
-  <img src="overview.png" width="95%" alt="Executive Summary Dashboard">
+  <img src="images/overview.png" width="95%" alt="Executive Summary Dashboard">
 </p>
 
 ### 2. Client Profile & Conversion Deep-Dive
 <p align="center">
-  <img src="client_profile.png" width="95%" alt="Client Profile Dashboard">
+  <img src="images/client_profile.png" width="95%" alt="Client Profile Dashboard">
 </p>
 
 ---
