@@ -1,4 +1,4 @@
-<font size="6">Bank Marketing: Optimization of Telemarketing Campaigns via ML & Analytics
+# Bank Marketing: Optimization of Telemarketing Campaigns via ML & Analytics
 <div align="center">
   
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
