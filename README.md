@@ -93,7 +93,7 @@ The core data science objective focused on building a predictive pipeline to cla
 * **Out-of-Fold Threshold Optimization**
   Trained an `XGBClassifier` pipeline on the native distribution to yield unskewed probability scores. Instead of relying on a default 0.5 classification cutoff, **5-fold Cross-Validation** (`cross_val_predict`) was run exclusively on the training subset to extract precise out-of-fold probabilities. By plotting the Precision-Recall curve, the **optimal F1-score threshold was calculated at 0.1393**.
 
-  * **Model Insights (Feature Importance)**
+* **Model Insights (Feature Importance)**
   The trained XGBoost model identified that macroeconomic indicators—specifically the **3-month Euribor rate** (`euribor_3m`)—and previous marketing campaign success (`poutcome_success`) are the strongest predictors of customer conversion.
   
   <p align="center">
