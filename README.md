@@ -1,8 +1,5 @@
 <div align="center">
 <h1>Bank Marketing: Optimization of Telemarketing Campaigns via ML & Analytics</h1>
-
-An end-to-end data analytics and data science project designed to optimize bank telemarketing campaigns, improve conversion rates, and build a robust predictive pipeline. The project encompasses database extraction via SQL, exploratory data analysis and machine learning implementation in Python, and interactive business intelligence dashboard design within Power BI.
-
 <br/>
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
